@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title> Регистрация на нов потребител </title>
+        <script defer type="text/javascript" src="./scripts/register.js"></script>
+        <link href="./styles/form.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <form method="POST" action="./register.php">
+            <input type="text" name="username" placeholder="Потребителско име">
+            <input type="email" name="email" placeholder="Email">
+            <input type="password" name="password" placeholder="Парола">
+            <input type="password" name="confirm" placeholder="Потвърди паролата">
+            <button type="submit"> Регистрирай ме </button>
+
+            <a href="index.html"> Обратно </a>
+        </form>
+
+        <div id="message"> </div> 
+    </body> 
+</html>

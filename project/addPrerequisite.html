@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title> Добавяне на предварително изискване за предмет </title>
+        <script defer type="text/javascript" src="./scripts/addPrerequisite.js"></script>
+        <link href="./styles/form.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <form method="POST" action="./addPrerequisite.php">
+            <select name="subject"></select>
+            <div> изисква </div> 
+            <select name="prerequisite"></select>
+            <button type="submit"> Добави </button>
+
+            <a href="homepage.html"> Обратно </a>
+        </form>
+
+        <div id="message"> </div> 
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title> Програма </title>
+
+        <script defer type="text/javascript" src="./scripts/timetable.js"></script>
+        <link href="./styles/timetable.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <form method="POST" action="./timetable.php">
+            <select id="programme" name="programme">
+                <option disabled selected hidden> Избери специалност </option>
+            </select>
+
+            <select id="semester" name="semester">
+                <option disabled selected hidden> Избери семестър </option>
+            </select>
+
+            <button type="submit" id="load"> Зареди програма </button>
+        </form>
+
+        <button type="button" id="export" onclick="downloadCSV()"> Export до .csv </button>    
+        <button onclick="document.getElementById('file-input').click();"> Import от .csv </button>
+        <input id="file-input" type="file" accept=".csv" style="display: none;" />
+
+        <a href="homepage.html"> Обратно </a>
+    </body>
+
+</html>
