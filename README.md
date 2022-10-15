@@ -1,4 +1,4 @@
-# University Project for the Web Technologies course in FMI, 1st Semester 2020/2021
+# University Project for the Web Technologies course in FMI (Sofia University), 1st Semester 2020/2021
 
 Online Editor for a university syllabus, along with functionality for creating and viewing a dependency graph (showing which disciplines are prerequisites for others).
 
